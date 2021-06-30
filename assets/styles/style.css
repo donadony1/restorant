@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Montserrat:wght@100&display=swap');
+
+/* nav-bar styling******* */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+#navbarNavAltMarkup {
+    width: 86vw;
+}
+
+.left a {
+    color: rgb(255, 255, 255) !important;
+    margin: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-right: 10px;
+}
+
+.right a {
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar {
+    background-color: transparent!important;
+    padding: 30px 30px 0px 30px;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.btn-success {
+    background-color: #12ed87 !important;
+    color: #fff !important;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn-dark {
+    background-color: rgb(27, 26, 26);
+    color: #fff !important;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+
+
+/*  styling the main section*********************** */
+
+.main {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    animation: animate 16s ease infinite;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+
+/* the background animation  */
+
+@keyframes animate {
+    0%,
+    100% {
+        background-image: url("../images/1.jpg");
+    }
+    25% {
+        background-image: url("../images/2.jpg");
+    }
+    50% {
+        background-image: url("../images/3.jpg");
+    }
+    75% {
+        background-image: url("../images/3.jpg");
+    }
+}
+
+
+/* styling the logo  */
+
+.navbar-brand {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.navbar-brand img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* bark overlay  */
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.left-name {
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    z-index: 10;
+    color: white;
+}
+
+.left-name h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #c7dec7;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+.left-name p {
+    font-size: 20px;
+    color: #d7f9f9;
+    font-weight: 700;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    position: absolute;
+    top: 520px;
+    left: 580px;
+    color: white;
+    margin: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom img {
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+}
+
+
+/* mobile responsiveness */
+
+@media (max-width:1150px) and (min-width:992px) {
+    #navbarNavAltMarkup {
+        width: 80vw;
+    }
+    .bottom {
+        top: 480px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #navbarNavAltMarkup {
+        display: flex !important;
+    }
+    .navbar-nav {}
+}
