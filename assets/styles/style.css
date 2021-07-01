@@ -8,6 +8,13 @@ body {
     padding: 0;
 }
 
+
+/*  menu icon  */
+
+.menu {
+    display: none;
+}
+
 .left {
     display: flex;
     flex-direction: row;
@@ -16,6 +23,22 @@ body {
 
 #navbarNavAltMarkup {
     width: 86vw;
+    height: 0px;
+    animation: toggle1 0.5s ease-in-out;
+    /* ******toggle nav bar animation */
+}
+
+@keyframes toggle1 {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 100vh;
+    }
+}
+
+#navbarNavAltMarkup span {
+    display: none;
 }
 
 .left a {
@@ -176,7 +199,7 @@ body {
 
 /* mobile responsiveness */
 
-@media (max-width:1150px) and (min-width:992px) {
+@media (max-width:1150px) and (min-width:991px) {
     #navbarNavAltMarkup {
         width: 80vw;
     }
@@ -185,9 +208,66 @@ body {
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     #navbarNavAltMarkup {
+        /* display: flex !important; */
+        /* flex !important on toggle */
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 10;
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    #navbarNavAltMarkup span {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        display: inline;
+    }
+    .navbar-nav {
+        flex-direction: column-reverse;
+    }
+    .left {
+        flex-direction: column;
+    }
+    .left a {
+        border-bottom: 1px solid white;
+    }
+    .right {
+        margin-top: 10px;
+    }
+    .container-fluid {
+        position: relative;
+        display: initial;
+        padding: 0px !important;
+        width: 100vw;
+    }
+    .navbar {
+        flex-wrap: nowrap;
+        padding: 0px;
+    }
+    .navbar-brand {
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .container-fluid a {
+        font-size: 21px;
+    }
+    .btn {
+        padding: 5px;
+    }
+    .display {
         display: flex !important;
     }
-    .navbar-nav {}
+    .menu {
+        display: initial;
+        position: absolute;
+        top: 15px;
+        right: 10%;
+    }
 }
