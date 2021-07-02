@@ -181,7 +181,7 @@ body {
     justify-self: center;
     flex-direction: column;
     position: absolute;
-    top: 520px;
+    top: 400px;
     left: 580px;
     color: white;
     margin: 12px;
@@ -204,7 +204,7 @@ body {
         width: 80vw;
     }
     .bottom {
-        top: 480px;
+        top: 400px;
     }
 }
 
@@ -269,5 +269,163 @@ body {
         position: absolute;
         top: 15px;
         right: 10%;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .left-name h1 {
+        font-size: 45px;
+    }
+    .left-name {
+        top: 20%;
+        left: 30%;
+    }
+    .left-name p {
+        font-size: 16px;
+    }
+    .bottom {
+        font-size: 14px;
+        top: 60%;
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 367px) {
+    .left-name h1 {
+        font-size: 29px;
+    }
+    .bottom {
+        margin: 0;
+        top: 70%;
+        left: 30%;
+    }
+}
+
+
+/*  #####################################styling the contact us page ##################################### */
+
+.contact {
+    background-image: linear-gradient(to right bottom, #05371b, #006127, #008d2c, #21bb29, #4beb12);
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main_contact {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    width: 100vw;
+    height: 90%;
+    bottom: 0px;
+}
+
+.main_contact_info {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: center;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.main_contact_info p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.main_contact_info .info_item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main_contact_info .info_item span {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_contact_form {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 35vw;
+    margin-right: 15px;
+}
+
+.main_contact_form h4 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea {
+    width: 35vw;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type='submit'] {
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 75%;
+}
+
+
+/*  responsiveness for contact section */
+
+@media only screen and (max-width: 622px) {
+    .main_contact {
+        flex-direction: column-reverse;
+    }
+    input[type='text'],
+    input[type='tel'],
+    input[type='email'],
+    textarea {
+        width: 70vw;
+        margin-bottom: 20px;
+        padding: 10px;
+        outline: none;
+    }
+    textarea {
+        height: 100px;
+    }
+    input[type='submit'] {
+        padding: 10px;
+        margin-left: 0px;
+        margin-right: 75%;
+    }
+    .contact {
+        height: 180vh;
+    }
+    .main_contact_info {
+        width: 70vw;
     }
 }

@@ -63,7 +63,7 @@
                 <p>Avec le ventre plain tout est possible</p>
             </div>
             <div class="bottom">
-                <span>Goutez au meilleurs <div class="blo" style="margin-left: 30px;">plate africains</div></span>
+                <span>Goutez au meilleurs <div class="blo" style="margin-left: 30px;">plats africains</div></span>
                 <a href="#"><img src="../assets/images/gif-arrow.gif" alt=""></a>
             </div>
         </div>
