@@ -28,7 +28,8 @@ require_once "./assets/classes/foodCart.php";
 
 <body>
 
-    <?php
+
+<?php
     $name= "Meat pile";
     $img="1";
     $description="this will be the Meat pile description";
