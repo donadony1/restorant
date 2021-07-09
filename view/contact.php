@@ -28,13 +28,17 @@ if(isset($_POST['name']) && isset($_POST['email'])) {
     $email = $_POST['email'];
     $contact = $_POST['tel'];
     $body = $_POST['body'];
-    $message ="";
+    $subject = " formulaire";
+    $message =" <html> 
+    
+    <h1 style='color: red;'> this is the new age</h1>
+    </html>";
 
 
-    $message.= "Email: " . $email . "\r\n";
-    $message.= "Contact: " . $contact . "\r\n";
-    $message.= "Name: " . $name . "\r\n";
-     $message.= "Message: " . $body . "\r\n";
+    // $message.= "Email: " . $email . "\r\n";
+    // $message.= "Contact: " . $contact . "\r\n";
+    // $message.= "Name: " . $name . "\r\n";
+    //  $message.= "Message: " . $body . "\r\n";
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->IsSMTP(); // enable SMTP
@@ -44,7 +48,7 @@ if(isset($_POST['name']) && isset($_POST['email'])) {
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
     $mail->Host = "smtp.gmail.com";
     $mail->Port = 465; // or 587
-    //$mail->IsHTML(true);
+    $mail->IsHTML(true);
     $mail->Username = "mbutiji1@gmail.com";  
     $mail->Password = "developer-8081";  
     $mail->SetFrom($email, $name);

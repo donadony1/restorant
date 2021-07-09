@@ -1,11 +1,18 @@
-if (window.history.replaceState) {
-    window.history.replaceState(null, null, window.location.href);
+if (
+    window.history
+    .replaceState
+) {
+    window.history.replaceState(
+        null,
+        null,
+        window.location
+        .href,
+    );
 }
 
 
+var cartIcon = document.querySelector('.cart_icon');
 
-
-
-// document.getElementById('clear').addEventListener('click', function() {
-//     window.location.href = window.location.href
-// })
+function toggle() {
+    document.getElementById("recipt").classList.toggle("show");
+}
