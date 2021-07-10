@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 
@@ -112,16 +113,16 @@ body {
 @keyframes animate {
     0%,
     100% {
-        background-image: url("../images/1.jpg");
+        background-image: url("../images/10.jpg");
     }
     25% {
-        background-image: url("../images/2.jpg");
+        background-image: url("../images/20.jpg");
     }
     50% {
-        background-image: url("../images/3.jpg");
+        background-image: url("../images/30.jpg");
     }
     75% {
-        background-image: url("../images/3.jpg");
+        background-image: url("../images/40.jpg");
     }
 }
 
@@ -187,6 +188,14 @@ body {
     margin: 12px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.bottom a {
+    z-index: 1000;
+    cursor: pointer;
+    pointer-events: auto;
+    position: relative;
 }
 
 .bottom img {
@@ -194,6 +203,7 @@ body {
     height: 40px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -433,12 +443,23 @@ input[type='submit'] {
 
 /*  styling the cart page------------------ */
 
+.col-md-12 {}
+
 .cart_container {
     display: flex;
     flex-direction: column-reverse !important;
     align-items: center;
     justify-content: center;
     width: 90vw;
+    color: white;
+}
+
+.cart_container h4 {
+    color: black;
+}
+
+.table h2 {
+    color: black;
 }
 
 .plate_container {
@@ -447,6 +468,7 @@ input[type='submit'] {
 
 .plate_container h2 {
     margin-bottom: 15px;
+    color: black;
 }
 
 .col-md-6 {
@@ -469,4 +491,30 @@ input[type='submit'] {
 
 .show {
     display: flex !important;
+}
+
+
+/*  styling the registration page  */
+
+.form_container {
+    background-color: rgb(209, 207, 199);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form_container form {
+    margin-left: 20px;
+}
+
+
+/*  styling the confirm order page  */
+
+.confirm_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

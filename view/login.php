@@ -1,8 +1,12 @@
 <?php
- session_start();
+
+ include 'header.php'; 
+
+
 if(isset($_POST['login'])){
     $log_email = $_POST['log_email'];
     $log_password = md5($_POST['log_password']);
+
 
   
  $connect = mysqli_connect("localhost", "root", "", "cart"); 
@@ -31,7 +35,7 @@ $num_row = mysqli_num_rows($query);
                }
 
             
-                        header("Location: cart/cart.php");
+                        header("Location: cart.php");
         } else {
 
             echo " Invalid email or password";
@@ -44,10 +48,6 @@ $num_row = mysqli_num_rows($query);
 
 ?>
 
-
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,14 +55,20 @@ $num_row = mysqli_num_rows($query);
     <title>login</title>
 </head>
 
-<body>
+<div class="form_container">
 
     <form action="login.php" method="POST">
         <input type="email" placeholder="Entre votre email" name="log_email">
         <input type="password" placeholder="Entre votre mot de pass" name="log_password">
-        <input type="submit" name="login" value="Connexion">
-
+        <input type="submit" class="btn btn-success" name="login" value="Connecte Moi">
     </form>
+
+    <div>
+        <h5> Vous n'avez pas encore un compte, inscriver vous ici</h5>
+
+        <a href="register.php" class="btn btn-dark btn-block">Inscription</a>
+    </div>
+</div>
 
 
 </body>
