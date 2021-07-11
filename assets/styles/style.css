@@ -200,7 +200,7 @@ body {
 
 .bottom img {
     width: 80px;
-    height: 40px;
+    height: 80px;
     border: none;
     color: white;
     cursor: pointer;
@@ -517,4 +517,37 @@ input[type='submit'] {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+/*  styling the registration page */
+
+.input_container {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.input_container input[type="password"] {
+    width: 44% !important;
+    min-width: 340px;
+}
+
+
+/*  styling the login page  */
+
+.login_form input[type="email"],
+input[type="password"] {
+    height: 50px;
+    width: 100%;
+}
+
+.login_form {
+    width: 40%;
+    min-width: 40vw;
+}
+
+.form_container h4 {
+    font-size: 27px;
+    margin-bottom: 21px;
+    color: #163e11;
 }

@@ -9,7 +9,7 @@
         </div>
         <div class="bottom" style="cursor: pointer;">
             <span>Goutez au meilleurs <p class="blo" style="margin-left: 30px;">plats africains</p></span>
-            <a href="cart.php"><img src="../assets/images/gif-arrow.gif" alt=""></a>
+            <a href="cart.php"><img src="../assets/images/breakfast-cafeteria.gif" alt=""></a>
         </div>
 
     </div>

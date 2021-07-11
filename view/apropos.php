@@ -1,4 +1,4 @@
-<?php    include "../view/header.php";?>
+<?php    include "header.php";?>
 
 <head>
     <!-- basic -->
@@ -13,15 +13,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../apropos/css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../apropos/css/style.css">
     <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../apropos/css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../apropos/css/jquery.mCustomScrollbar.min.css">
 
 </head>
 <!-- body -->
@@ -40,7 +40,7 @@
 <body class="main-layout ">
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+        <div class="loader"><img src="../apropos/images/loading.gif" alt="#" /></div>
     </div>
 
     <!-- end header -->
@@ -62,7 +62,8 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi </p>
-                            <a class="buynow" href="#about">Apropos de nous</a><a class="buynow ggg" href="#">Tous les
+                            <a class="buynow" href="#about">Apropos de nous</a><a class="buynow ggg"
+                                href="cart.php">Tous les
                                 plats</a>
 
                         </div>
@@ -78,7 +79,8 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi </p>
-                            <a class="buynow" href="#about">Apropos de nous</a><a class="buynow ggg" href="#">Tous les
+                            <a class="buynow" href="#about">Apropos de nous</a><a class="buynow ggg"
+                                href="cart.php">Tous les
                                 plats</a>
 
                         </div>
@@ -94,7 +96,8 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi </p>
-                            <a class="buynow" href="#about">Apropos de nous</a><a class="buynow ggg" href="#">Tous les
+                            <a class="buynow" href="#about">Apropos de nous</a><a class="buynow ggg"
+                                href="cart.php">Tous les
                                 plats</a>
 
                         </div>
@@ -136,7 +139,7 @@
     <!-- end about -->
 
     <!-- offer -->
-    <div class="offer">
+    <div class="offer" id="offer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -175,7 +178,7 @@
                     </div>
 
                     <div class="col-md-12">
-                        <a class="read-more" href="../view/cart.php">voir plus</a>
+                        <a class="read-more" href="cart.php">voir plus</a>
                     </div>
                 </div>
             </div>
@@ -215,18 +218,19 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#" /></i>
+                                            <i><img src="../apropos/images/tes.jpg" alt="#" /></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>Mbiakop<br><strong class="ornage_color">developer</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                            <p><img src="../apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
+                                                consectetur
                                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
+                                                <img src="../apropos/icon/2.png" alt="#" />
                                             </p>
 
                                         </div>
@@ -245,18 +249,19 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#" /></i>
+                                            <i><img src="../apropos/images/tes.jpg" alt="#" /></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>merveille<strong class="ornage_color">enseignant</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                            <p><img src="../apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
+                                                consectetur
                                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
+                                                <img src="../apropos/icon/2.png" alt="#" />
                                             </p>
 
                                         </div>
@@ -276,18 +281,19 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#" /></i>
+                                            <i><img src="../apropos/images/tes.jpg" alt="#" /></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>John<br><strong class="ornage_color">taxi man</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                            <p><img src="../apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
+                                                consectetur
                                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
+                                                <img src="../apropos/icon/2.png" alt="#" />
                                             </p>
 
                                         </div>
@@ -306,16 +312,16 @@
     <!-- end clients -->
 
     <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
+    <script src="../apropos/js/jquery.min.js"></script>
+    <script src="../apropos/js/popper.min.js"></script>
+    <script src="../apropos/js/bootstrap.bundle.min.js"></script>
+    <script src="../apropos/js/jquery-3.0.0.min.js"></script>
+    <script src="../apropos/js/plugin.js"></script>
     <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="../apropos/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../apropos/js/custom.js"></script>
     <!-- javascript -->
-    <script src="js/owl.carousel.js"></script>
+    <script src="../apropos/js/owl.carousel.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script>
     $(document).ready(function() {
@@ -345,7 +351,7 @@
             },
         });
 
-        var image = 'images/maps-and-flags.png';
+        var image = '../apropos/images/maps-and-flags.png';
         var beachMarker = new google.maps.Marker({
             position: {
                 lat: 40.645037,

@@ -56,8 +56,8 @@ $num_row = mysqli_num_rows($query);
 </head>
 
 <div class="form_container">
-
-    <form action="login.php" method="POST">
+    <h4> Connecter vous pour passer les commande</h4>
+    <form class="login_form" action="login.php" method="POST">
         <input type="email" placeholder="Entre votre email" name="log_email">
         <input type="password" placeholder="Entre votre mot de pass" name="log_password">
         <input type="submit" class="btn btn-success" name="login" value="Connecte Moi">

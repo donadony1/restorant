@@ -18,16 +18,10 @@
     <title>Inscription a la fourchette</title>
 </head>
 
-<style>
-
-
-
-</style>
-
 <div class="form_container">
-
+    <h4>Creayer un compte</h4>
     <form action="register.php" method="POST">
-        <div><input type="text" name="name" placeholder="Votre nom" required>
+        <div class="input_container"><input type="text" name="name" placeholder="Votre nom" required>
             <input type="text" name="town" placeholder="Votre ville" required>
             <input type="text" name="quarter" placeholder="Votre quartier" required>
             <input type="email" name="email" placeholder="Votre email" required>

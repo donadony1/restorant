@@ -52,9 +52,9 @@ header("Location: index.php");
                 <div class="navbar-nav">
 
                     <div class="left">
-                        <a class="nav-link active" aria-current="page" href="../apropos/apropos.php">Apropos</a>
+                        <a class="nav-link active" aria-current="page" href="apropos.php">Apropos</a>
                         <a class="nav-link" href="cart.php">Plats</a>
-                        <a class="nav-link" href="#">Nos specialites</a>
+                        <a class="nav-link" href="apropos.php#offer">Nos specialites</a>
                         <a class="nav-link" href="contact.php">Contactez-nous</a>
                     </div>
                     <!--  show register, login or logout btn -->
