@@ -33,8 +33,8 @@ body {
 
 
     <?php
-require("../assets/classes/PHPMailer/PHPMailer.php");
-require("../assets/classes/PHPMailer/SMTP.php");
+require("assets/classes/PHPMailer/PHPMailer.php");
+require("assets/classes/PHPMailer/SMTP.php");
 
 if(isset($_SESSION['cart']) && isset($_SESSION['user'])){
     
@@ -214,7 +214,7 @@ if(isset($_SESSION['cart']) && isset($_SESSION['user'])){
 </div>
 
 
-<script src="../assets/js/app.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 
 </html>

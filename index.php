@@ -9,13 +9,13 @@
         </div>
         <div class="bottom" style="cursor: pointer;">
             <span>Goutez au meilleurs <p class="blo" style="margin-left: 30px;">plats africains</p></span>
-            <a href="cart.php"><img src="../assets/images/breakfast-cafeteria.gif" alt=""></a>
+            <a href="cart.php"><img src="assets/images/breakfast-cafeteria.gif" alt=""></a>
         </div>
 
     </div>
 </div>
 
-<script src="../assets/js/app.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 
 </html>

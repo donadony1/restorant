@@ -26,10 +26,10 @@ header("Location: index.php");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- css     -->
-    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 
     <!-- link js -->
-    <script src="../assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 </head>
 
 <body>
@@ -39,7 +39,7 @@ header("Location: index.php");
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid" id="nav_container">
-            <a class="navbar-brand" href="index.php"><img src="../assets/images/logo.png" alt="index.php"></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt="index.php"></a>
 
             <div class="collapse  navbar-collapse" id="navbarNavAltMarkup">
                 <span onclick="toggle()">

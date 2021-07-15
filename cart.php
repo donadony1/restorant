@@ -104,7 +104,7 @@ input[type='submit'] {
 
                          <?php
                      
-                     $query = mysqli_query($connect, "SELECT * FROM cart_items");
+                     $query = mysqli_query($connect, "SELECT * FROM cart_items WHERE disponibilite='oui'");
                      
                      while( $row = mysqli_fetch_array($query)){
                          
@@ -112,10 +112,11 @@ input[type='submit'] {
                          ?>
                          <div class="col-md-4">
                              <form action="cart.php" method="POST">
-                                 <img src="../assets/images/<?= $row['id'];?>.jpg" alt="" style="height: 150px;">
-                                 <h5><?= $row['name'] ?></h5>
+                                 <img src="assets/images/<?= $row['photo']?>" alt="" style="height: 150px;">
+                                 <h5><?= $row['nom'] ?></h5>
                                  <h5><?= $row['price'] ?></h5>
-                                 <input type="hidden" name="name" value="<?= $row['name']?> ">
+                                 <p><?= $row['descrire']?></p>
+                                 <input type="hidden" name="name" value="<?= $row['nom']?> ">
                                  <input type="hidden" name="price" value="<?= $row['price']?> ">
                                  <input type="hidden" name="id" value="<?= $row['id']?> ">
                                  <input type="number" min="1" value="1" name="quantity">
@@ -291,6 +292,6 @@ $output_user = "";
 
      </body>
 
-     <script src="../assets/js/app.js"></script>
+     <script src="assets/js/app.js"></script>
 
      </html>

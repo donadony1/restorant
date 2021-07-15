@@ -1,8 +1,8 @@
 <?php
  include 'header.php'; 
 
-require("../assets/classes/PHPMailer/PHPMailer.php");
-require("../assets/classes/PHPMailer/SMTP.php");
+require("assets/classes/PHPMailer/PHPMailer.php");
+require("assets/classes/PHPMailer/SMTP.php");
 
 
 if(isset($_POST['name']) && isset($_POST['email'])) {
@@ -112,7 +112,7 @@ header("Location: contact.php");
 
 
 </main>
-<script src="../assets/js/app.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 
 </html>

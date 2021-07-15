@@ -13,15 +13,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="../apropos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="apropos/css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="../apropos/css/style.css">
+    <link rel="stylesheet" href="apropos/css/style.css">
     <!-- Responsive-->
-    <link rel="stylesheet" href="../apropos/css/responsive.css">
+    <link rel="stylesheet" href="apropos/css/responsive.css">
     <!-- fevicon -->
     <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="../apropos/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="apropos/css/jquery.mCustomScrollbar.min.css">
 
 </head>
 <!-- body -->
@@ -40,7 +40,7 @@
 <body class="main-layout ">
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="../apropos/images/loading.gif" alt="#" /></div>
+        <div class="loader"><img src="apropos/images/loading.gif" alt="#" /></div>
     </div>
 
     <!-- end header -->
@@ -53,7 +53,7 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="first-slide img_slide" src="../assets/images/40.jpg" alt="First slide">
+                    <img class="first-slide img_slide" src="assets/images/40.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption relative">
                             <h1>RESTAURANT</h1>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="second-slide img_slide" src="../assets/images/20.jpg" alt="Second slide">
+                    <img class="second-slide img_slide" src="assets/images/20.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption relative">
                             <h1>RESTAURANT</h1>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="third-slide img_slide" src="../assets/images/30.jpg" alt="Third slide">
+                    <img class="third-slide img_slide" src="assets/images/30.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption relative">
                             <h1>RESTAURANT</h1>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
                     <div class="about_img">
-                        <figure><img src="../assets/images/40.jpg" alt="img" /></figure>
+                        <figure><img src="assets/images/40.jpg" alt="img" /></figure>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                         <div class="offer_box">
                             <h3>Rix poulet</h3>
-                            <figure><img src="../assets/images/5.jpg" alt="img" /></figure>
+                            <figure><img src="assets/images/5.jpg" alt="img" /></figure>
                             <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
@@ -164,7 +164,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin_ttt">
                         <div class="offer_box">
                             <h3>pommer frits</h3>
-                            <figure><img src="../assets/images/4.jpg" alt="img" /></figure>
+                            <figure><img src="assets/images/4.jpg" alt="img" /></figure>
                             <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad</p>
                         </div>
@@ -172,7 +172,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin-lkk">
                         <div class="offer_box">
                             <h3>viande hacher</h3>
-                            <figure><img src="../assets/images/2.jpg" alt="img" /></figure>
+                            <figure><img src="assets/images/2.jpg" alt="img" /></figure>
                             <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna</p>
                         </div>
                     </div>
@@ -218,19 +218,19 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="../apropos/images/tes.jpg" alt="#" /></i>
+                                            <i><img src="apropos/images/tes.jpg" alt="#" /></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>Mbiakop<br><strong class="ornage_color">developer</strong></h3>
-                                            <p><img src="../apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
+                                            <p><img src="apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
                                                 consectetur
                                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit
-                                                <img src="../apropos/icon/2.png" alt="#" />
+                                                <img src=".apropos/icon/2.png" alt="#" />
                                             </p>
 
                                         </div>
@@ -249,19 +249,19 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="../apropos/images/tes.jpg" alt="#" /></i>
+                                            <i><img src="apropos/images/tes.jpg" alt="#" /></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>merveille<strong class="ornage_color">enseignant</strong></h3>
-                                            <p><img src="../apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
+                                            <p><img src="apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
                                                 consectetur
                                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit
-                                                <img src="../apropos/icon/2.png" alt="#" />
+                                                <img src="apropos/icon/2.png" alt="#" />
                                             </p>
 
                                         </div>
@@ -281,19 +281,19 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
                                         <div class="testomonial_img">
-                                            <i><img src="../apropos/images/tes.jpg" alt="#" /></i>
+                                            <i><img src="apropos/images/tes.jpg" alt="#" /></i>
                                         </div>
                                     </div>
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>John<br><strong class="ornage_color">taxi man</strong></h3>
-                                            <p><img src="../apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
+                                            <p><img src="apropos/icon/1.png" alt="#" />ipsum dolor sit amet,
                                                 consectetur
                                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                                                 in reprehenderit in voluptate velit
-                                                <img src="../apropos/icon/2.png" alt="#" />
+                                                <img src="apropos/icon/2.png" alt="#" />
                                             </p>
 
                                         </div>
@@ -312,16 +312,16 @@
     <!-- end clients -->
 
     <!-- Javascript files-->
-    <script src="../apropos/js/jquery.min.js"></script>
-    <script src="../apropos/js/popper.min.js"></script>
-    <script src="../apropos/js/bootstrap.bundle.min.js"></script>
-    <script src="../apropos/js/jquery-3.0.0.min.js"></script>
-    <script src="../apropos/js/plugin.js"></script>
+    <script src="apropos/js/jquery.min.js"></script>
+    <script src="apropos/js/popper.min.js"></script>
+    <script src="apropos/js/bootstrap.bundle.min.js"></script>
+    <script src="apropos/js/jquery-3.0.0.min.js"></script>
+    <script src="apropos/js/plugin.js"></script>
     <!-- sidebar -->
-    <script src="../apropos/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../apropos/js/custom.js"></script>
+    <script src="apropos/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="apropos/js/custom.js"></script>
     <!-- javascript -->
-    <script src="../apropos/js/owl.carousel.js"></script>
+    <script src="apropos/js/owl.carousel.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script>
     $(document).ready(function() {
@@ -351,7 +351,7 @@
             },
         });
 
-        var image = '../apropos/images/maps-and-flags.png';
+        var image = 'apropos/images/maps-and-flags.png';
         var beachMarker = new google.maps.Marker({
             position: {
                 lat: 40.645037,

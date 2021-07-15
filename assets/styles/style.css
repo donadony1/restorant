@@ -443,7 +443,16 @@ input[type='submit'] {
 
 /*  styling the cart page------------------ */
 
-.col-md-12 {}
+@media only screen and (max-width: 991px) {
+    .col-md-12 {
+        margin-top: 40px;
+    }
+}
+
+
+.col-md-4 form{
+    color: black;
+}
 
 .cart_container {
     display: flex;
