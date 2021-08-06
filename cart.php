@@ -112,13 +112,15 @@ input[type='submit'] {
                          ?>
                          <div class="col-md-4">
                              <form action="cart.php" method="POST">
-                                 <img src="assets/images/<?= $row['photo']?>" alt="" style="height: 150px;">
-                                 <h5><?= $row['nom'] ?></h5>
-                                 <h5><?= $row['price'] ?></h5>
-                                 <p><?= $row['descrire']?></p>
+                                 <div id='foodInfo'>
+                                     <img src="assets/images/<?= $row['photo']?>" alt="" style="height: 150px;">
+                                     <h5><?= $row['nom'] ?></h5>
+                                     <h5><?= $row['price'] ?></h5>
+                                     <p><?= $row['descrire']?></p>
+                                 </div>
                                  <input type="hidden" name="name" value="<?= $row['nom']?> ">
                                  <input type="hidden" name="price" value="<?= $row['price']?> ">
-                                 <input type="hidden" name="id" value="<?= $row['id']?> ">
+                                 <input type="hidden" id="id" name="id" value="<?= $row['id']?> ">
                                  <input type="number" min="1" value="1" name="quantity">
                                  <input type="submit" name="add_to_cart" value="Add to cart"
                                      class="btn btn-warning btn-block">
